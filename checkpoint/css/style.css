@@ -1,0 +1,214 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&family=Work+Sans:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 4;
+  padding: 4;
+  width: auto;
+}
+body {
+    background-color: #2fd4da;
+  }
+  header {
+    font-family: kannada;
+    font-style: normal;
+    font-weight: bold;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Hubballi;
+    gap: 3rem;
+  }
+
+  .seçoes-menu {
+    background-color: #070707;
+    width: 6rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+  }
+
+  h1 {
+    position: absolute;
+    font-size: 6.5rem;
+    font-family: hubballi, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+
+  .Banner {
+    padding: 2rem;
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: white;
+  }
+
+  .História{
+    margin: 2rem;
+    padding: 2rem;
+    color: white;
+    background-color:#f2f2f3;
+    border-radius: 2rem;
+  }
+  img {
+    object-fit: cover;
+    border-radius: 2rem;
+  }
+  .curiosidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Hubballi, sans-serif;
+  } 
+  .curiosidades h2{
+      color: #f4f5f8;
+      font-size: 3em;
+  }
+  .curiosidades a{
+      background-color: #f4f6fa;
+     padding: 1rem;
+     border-radius: 1rem;
+     color: white;
+     font-family: Hubballi, sans-serif;
+     font-size: 1em;
+     font-weight: bold;
+  }
+  .curiosidades h3{
+      font-size: 2rem;
+  }
+  .Curiosidades-Cards {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: auto;
+    gap: 3rem;
+  }
+  .Curiosidades-Cards img {
+    width: 80%;
+  }
+  .div-card1, .div-card2, .div-card3{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items:center;
+      gap: 2rem;
+      background-color: #f0f0f0;
+      height: 33rem;
+      border-radius: 2rem;
+  }
+  .div-card1{
+      gap: 1rem;
+  }
+  p{
+      padding: 1rem;
+      text-align: center;
+      font-family: kannada, sans-serif;
+      font-weight: bold;
+  }
+  .titulo-video{
+      font-family: Hubballi, sans-serif;
+      color: #070707;
+      font-size: 2em;
+  }
+  .video-section{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 3rem;
+  }
+  iframe{
+      width: 50rem;
+      height: 30rem;
+  }
+  footer{
+    background-color: #e5e6e9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+  }
+
+    
+    header{
+      flex-direction: column;
+      gap: 2rem;
+    } 
+    .Banner img{
+      width: 100vw;
+    }
+   .Curiosidades-Cards{
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     height: auto;
+   }
+   .div-card1, .div-card2, .div-card3{
+   height: auto;
+   padding: 2rem;
+   }
+   h1{
+     text-align: center;
+     font-size: 2.4rem;
+   }
+   h2{
+     text-align: center;
+   }
+   
+   .video iframe{
+    
+     width: 85vw;
+     height: 40vh;
+   }
+    
+    header{
+      flex-direction: column;
+      gap: 2rem;
+    } 
+    .Curiosidades-Cards{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+  .div-card1, .div-card2, .div-card3{
+  height: auto;
+  padding: 2rem;
+  }
+  h1{
+    text-align: center;
+    font-size: 2.4rem;
+  }
+  h2{
+    text-align: center;
+  }
+  .video iframe{
+    
+    width: 85vw;
+    height: 40vh;
+  }
