@@ -1,94 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="../reset/reset.css" rel="stylesheet">
+    <link href="../CSS/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ramaraja&display=swap" rel="stylesheet">
     <title>Porto Alegre</title>
 </head>
-
 <body>
     <header>
-        <div class="logo__porto alegre">
-            <img src="img/POA.jpg" alt="Logo de porto alegre">
+        <section class="content-cabecalho">
+        <div class="logo">
+            <img src="img/POA.jpg" alt="POA">
         </div>
-      
-            <ul class="menu">
-                <il class="opcao">Início</il>
-                <li class="opcao">Sobre</li>
-                <li class="opcao">Mais</li>
-            </ul>
-        </div>
+        <nav class="menu">
+                <li><a>Inicio</a></li>
+                <li><a>Curiosidades</a></li>
+                <li><a>Vídeo</a></li>
+        </nav>
+        </section>
     </header>
-
     <main>
-
-        <section>
-            <div class="banner__principal">
-                <img src="img/FOTO-ORLA.jpg" alt="porto alegre">
-            </div>
-
-            <div>
-                <p class="descricao" id="sobre"> Porto Alegre é um município brasileiro e a capital do estado mais meridional do Brasil
-                    Com uma área de quase 500 km² e uma população de 1 492 530 habitantes.
-                </p>
-            </div>
-
-            <div class="obra__gasometro">
-                <div class="gasometro">
-                    <img src="img/usina.jpg" alt="gasometro">
-                    <p class="texto_gasometro">
-                        Usina do Gasômetro a localização da antiga usina é estratégica para quem quer conhecer o mais belo pôr do sol da cidade às margens do rio Guaíba.
-                    </p>
-                </div>
-            </div>
-
+        <section class="banner">
+            <img src="img/por.png" alt="por"/>
         </section>
-
-        <section class="informacoes">
-
-            <div class="cards__rs">
-                <div class="sobre__card1">
-                    <h3>Cais do porto</h3>
-
-                    <img src="img/cais.jpg" alt="cais">
-                    <p></p>
-
-                    <a href="https://www.instagram.com/caisembarcadero/"
-                    target="_blank">Mais</a>
+        <section class="curiosidades">
+            <h2 class="titulo">Curiosidades da cidade</h2>
+            <nav class="itens">
+                <div class="item">
+                    <img src="img/cais.jpg" alt="cais do porto">
+                    <h3>O Famoso Cais do porto </h3>
+                    <p>O Cais é um dos locais históricos de Porto Alegre, um dos mais marcantes. Um patrimônio nacional. Poderia ser revitalizado como outros cais do Brasil </p>
                 </div>
-
-                <div class="sobre__card2">
-                    <h3>Beira Rio</h3>
-                    <img src="img/beira-rio.jpg" alt="Estadio">
-                    <p> </p>
-                    <a href="https://estadiobeirario.com.br/o-beira-rio"
-                        target="_blank">Mais</a>
+                <div class="item">
+                    <img src="img/beira-rio.jpg" alt="estadio">
+                    <h3>O Glorioso Beira-Rio</h3>
+                    <p> Estádio José Pinheiro Borda é um estádio de futebol localizado às margens do lago Guaíba na cidade de Porto Alegre</p>
                 </div>
-
-                <div class="sobre__card3">
-                    <h3>Cidade baixa</h3>
-                    <img src="img/cidade.jpg" alt="">
-                    <p></p>
-                    <a href="https://www.instagram.com/pelacidadebaixa/"
-                        target="_blank">Mais</a>
+                <div class="item">
+                    <img src="img/FOTO-ORLA.jpg" alt="foto orla">
+                    <h3>A linda Orla do Guaiba</h3>
+                    <p>Famosa pelo pôr do sol, esta orla tem pista de bicicleta, quadras esportivas, playgrounds e restaurantes</p>
                 </div>
-            </div>
-
+            </nav>
         </section>
-        
-        <section class="video__rs" id="mais">
-            <div class="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/jHe9lAdqmro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+        <section class="video">
+            <h2 class="titulo">Vídeo</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/EbF0YSWAj_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
     </main>
-    
-
+    <footer>
+       
+        <div class="rodape">
+            <p>Venha Conhecer a grande PORTO ALEGRE</p>
+        </div>
+    </footer>
 </body>
-
 </html>
-                
-
